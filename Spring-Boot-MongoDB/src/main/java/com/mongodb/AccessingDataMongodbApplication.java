@@ -20,7 +20,6 @@ public class AccessingDataMongodbApplication implements CommandLineRunner {
 
 		repository.deleteAll();
 
-		// save a couple of customers
 		repository.save(new Customer("Alice", "Smith"));
 		repository.save(new Customer("Bob", "Smith"));
 
